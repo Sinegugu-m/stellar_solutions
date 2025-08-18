@@ -39,5 +39,24 @@
         style="max-width: 100%; height: auto"> <!--Ensures image scales responsively-->
     </section>
 
+    <hr>
+
+    <!--Contact section-->
+    <section id="contact-section">
+        <h2>Get in touch</h2>
+        <p>Have a project in mind? Fill out our contact form below and we will get back to you!</p>
+       
+        <!--Contact Form-->
+        <form id="contact-form" action="/submit-contact" method="post">
+            <label for="email">Your email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="5" required></textarea><br><br>
+
+            <input type="submit" value="send">
+        </form>
+    </section>
+
 </body>
 </html>
